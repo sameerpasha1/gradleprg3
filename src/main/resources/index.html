@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Registartion Form</title>
+    <style>
+        body{
+            font-family: Arial;
+            background-color: #f2f2f2;
+        }
+
+        .form-box{
+            width: 300px;
+            margin: 100px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px gray;
+        }
+
+        h2{
+            text-align: center;
+        }
+
+        input{
+            width: 100%;
+            padding: 8px;
+            margin: 8px 0;
+        }
+
+        button{
+            width: 100%;
+            padding: 8px;
+            background: green;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+
+        button:hover{
+            background: darkred;
+        }
+    </style>
+</head>
+<body>
+<div class="form-box">
+    <h2>Registration</h2>
+
+    <form>
+        <label>Full Name</label>
+        <input type="text" placeholder="Enter name">
+
+        <label>Email</label>
+        <input type="email" placeholder="Enter email">
+
+        <label>Password</label>
+        <input type="password" placeholder="Enter password">
+
+        <label>Confirm Password</label>
+        <input type="password" placeholder="Confirm password">
+
+        <label>DOB</label>
+        <input type="date" name="date" value="DOB">
+        <label>Department</label><br>
+
+        <select id="operation" style="text-align:center;align-item:center;margin-bottom:20px;">
+            <option >CSE</option>
+            <option >ME</option>
+            <option >CE</option>
+            <option >AIML</option>
+        </select>
+
+        <button type="submit">Register</button>
+    </form>
+
+</div>
+</body>
+</html>
